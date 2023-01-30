@@ -113,7 +113,7 @@ footer{
  
 ## Output:
 
-![cover page 6x 6 web](https://user-images.githubusercontent.com/119559844/215579431-2e3dc7b6-3c19-4d57-a14f-832f6625c991.png)
+![Screenshot (119)](https://user-images.githubusercontent.com/119559844/215581316-fce6dd46-7980-4b47-ace4-9f4696b4403a.png)
 
 
 ## Result:
