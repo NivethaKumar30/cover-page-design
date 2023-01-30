@@ -113,7 +113,8 @@ footer{
  
 ## Output:
 
-![BOOK COVER PAGE ](https://user-images.githubusercontent.com/119559844/215578353-6cc0af66-30bd-4930-9101-e0c61c1f673e.png)
+![BOOK COVER PAGE ](https://user-images.githubusercontent.com/119559844/215578769-ba2460d0-ece3-4e59-b29e-358fc085601d.png)
+
 
 
 ## Result:
