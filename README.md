@@ -29,148 +29,115 @@ Publish the website in the given URL.
 ```
 <!DOCTYPE html>
 <html>
- <head>
- <title>Cover page</title>
- <style>
- .coverpage{
- width : 500px;
- height :1000px;
- position: relative;
- display: block;
- }
- .head{
- font-size: 50px;
- font-family: arial black;
- padding-left: 50px;
- padding-bottom: 40px;
- position:relative ;
- bottom: -50px;
- color: white
- 
- }
- .head2{
- font-size: 20px;
- font-family: 'Arial', Times, serif;
- padding-top: 10px ;
- padding-left: 50px;
- position: relative;
- top: 30px;
- 
- color: white
- }
- .author{
- font-size: 30px;
- color: white;
- font-family: Arial;
- position: relative;
- bottom: 70px;
- right: -50px;
- }
- .container{
- background�image:url("C:\Users\srini_\Desktop\Ben.png");
- background-repeat: no-repeat;
- background-size: cover;
- width: 600px;
- height: 800px;
- position: relative;
- display: block;
- background-color: black;
- background = 
-"C:\Users\srini_\Desktop\Ben.png"
- position: fixed;
- }
- .expert{
- font-size: 15px;
- color: white;
- padding-left: 50px;
- position :relative;
- bottom: -50px
- }
- .developedby{
- font-size: 20px;
- color: white;
- position: relative;
- bottom: 60px;
- right: -50px;
- }
- .publisher{
- text-decoration: underline;
- font-size: 45px;
- color: white;
- position: relative;
- bottom: 125px;
- left: 400px;
- }
- .edition{
- font-size: 30px;
- font-style:"chiller";
- color: orange;
- display: inline;
- position: relative;
- bottom: 100px;
- right: -50px;
- }
- .image1{
- position: relative;
- right: -425px;
- bottom: 60px;
- 
- 
- }
- .image2{
-position: retalive;
+    <head>
+        <title>BOOK COVER</title>
+        <style>
+        h1{
+            color:#e36f2f;
+        }
+         .bookpage{
+             width: 450px;
+             height: 750px;
 
- }
- .hr{
- border: 1px solid orange;
- position: relative;
- right: 0px;
- bottom: 150px;
- width: 15.82cm;
- 
- }
- .hrs{
- border: 1px solid orange;
- position: relative;
- right: 117px;
- top:50px; 
- width: 7cm;
- 
- }
- body{
- 
- }
- </style>
- </head>
- <body>
- <div class="container">
- <div class="coverpage">
- 
- <div class="expert">EXPERT INSIGHT</div>
- <hr class="hrs">
- <div class="head"><b>Responsive Web 
-Design With HTML5 and CSS</b></div> 
- <div class="head2">Develop future-proof 
-responsive websites<br>
- using the latest HTML5 and CSS 
-techniques.</div>
-<div ><img width="600px" 
-src="C:\Users\srini_\Desktop\design.jpg" 
-class="image2" ></div>
- <div ><img width="150px" 
-src="C:\Users\srini_\Desktop\ben.png" 
-class="image1" ></div>
- 
- <div class="edition">Third Edition</div>
- <div class="author">BEN FRAIN</div>
- <div class="developedby">Developed By :NIVETHA</div>
- <hr class="hr">
- <div class="publisher">Packt></div>
- 
- </div>
- </div>
- 
- </body>
+             margin-left : auto ;
+             margin-right : auto ;
+             padding: 20px ;
+             background-image : url('/static/images/edited.jpg');
+             background-size: cover;
+             background-repeat: no-repeat;
+         }
+         .toptext {
+             color:rgb(236, 207, 186);
+             padding-left : 5px;
+             font-size :14px;
+             font-family : Arial, Helvetica, sans-serif;
+         }
+         .tophr{
+             color: azure;
+             width:180px;
+         }
+         hr{
+             color:bisque;
+         }
+         .booktitle{
+             font-family: Arial, Helvetica, sans-serif;
+             padding: 10px 10px 10px 10px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-right: 10px;
+             margin-left: 10px;
+             font-size: 30px;
+         }
+         .author{
+             color:white;
+             font-family: Arial, Helvetica, sans-serif;
+             display: inline;
+              font-size: 24px;
+              
+             
+         }
+         .sub-text {
+             color:white;
+             font-family: Arial, Helvetica, sans-serif;
+              display: flex;
+             margin-right: 10px;
+             margin-left: 10px;
+             font-size: 20px;
+              }
+  
+         .footer {
+  
+              padding-top: 10px;
+              padding-bottom: 90px;
+            }
+        .image {
+              color:white;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 22px;
+              margin-right: 20px;
+            }
+         .bottomhr { 
+              color:#f8ede7;
+              width: 450px;
+              height:20px;
+
+            }
+        img {
+            width: 190px;
+             height: 190px;
+             margin-right: 50px;
+             vertical-align: bottom;
+            }
+         .edition {
+             color:#e36f2f;
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 22px;
+            line-height: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bookpage">
+            <div class="toptext">BEST SELLER</div>
+            <div class="tophr"><hr></div>
+     
+
+        <div class="booktitle">
+            <h1>SHINGEKI NO KYOJIN</h1>
+        </div>
+
+        <h3 class="sub-text">THE DAY ..</h3>
+        <h3 class="sub-text">WHEN HUMANITY RECEIVED... </h3>
+        <h3 class="sub-text">A GRIM REMAINDER ...</h3>
+
+        <div class ="footer">
+            <h2 class="edition">THIRD EDITION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/static/images/isayama.jfif"  alt="author img"></h2>
+            <div class="bottomhr"><hr></div>
+            <div class="author"><h3>HAJIME ISAYAMA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;packt></h3></div>
+        </div>
+       </div>
+    </body>
 </html>
 ```
 ## Output:
