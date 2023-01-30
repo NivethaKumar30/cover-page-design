@@ -113,5 +113,8 @@ footer{
  
 ## Output:
 
+![BOOK COVER PAGE ](https://user-images.githubusercontent.com/119559844/215578353-6cc0af66-30bd-4930-9101-e0c61c1f673e.png)
+
+
 ## Result:
 Thus the Book Cover Designed successfully
